@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:horoscope_guide/card_style.dart';
 import 'package:horoscope_guide/data/strings.dart';
 
 import 'model/burc.dart';

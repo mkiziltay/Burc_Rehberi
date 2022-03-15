@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:horoscope_guide/del_burc_item.dart';
+import 'package:horoscope_guide/card_style.dart';
 import 'package:horoscope_guide/data/strings.dart';
-import 'package:horoscope_guide/del_main_page.dart';
 
 import 'model/burc.dart';
 

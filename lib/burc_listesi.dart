@@ -7,7 +7,7 @@ import 'model/burc.dart';
 class BurcListesi extends StatelessWidget {
   late final List<Burc> tumBurclar;
 
-  BurcListesi() {
+  BurcListesi({Key? key}) : super(key: key) {
     tumBurclar = veriKaynaginiHazirla();
   }
 

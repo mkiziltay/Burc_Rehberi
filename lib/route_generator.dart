@@ -8,6 +8,7 @@ import 'package:horoscope_guide/model/burc.dart';
 
 
 class RouteGenerator {
+  // ignore: body_might_complete_normally_nullable
   static Route<dynamic>? routeGenerator(RouteSettings settings) {
     switch (settings.name) {
       case '/':

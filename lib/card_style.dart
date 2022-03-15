@@ -25,13 +25,16 @@ class CardStyle extends StatelessWidget {
                 backgroundImage: AssetImage(image.toString()),
                 radius: 30,
               ),
-              Spacer(),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(title.toString(), style: const TextStyle(color: Colors.black, fontSize: 26)),
-                  Text(subtitle.toString(), style: const TextStyle(color: Colors.grey, fontSize: 16)),
-                ],
+              const SizedBox(width: 50),
+              Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(title.toString(), style: const TextStyle(color: Colors.black, fontSize: 26)),
+                    Text(subtitle.toString(), style: const TextStyle(color: Colors.grey, fontSize: 16)),
+                  ],
+                ),
               ),
               const Spacer(),
               const Icon(Icons.arrow_forward_ios, color: Colors.pink)

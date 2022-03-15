@@ -25,7 +25,7 @@ class CardStyle extends StatelessWidget {
                 backgroundImage: AssetImage(image.toString()),
                 radius: 30,
               ),
-              const SizedBox(width: 50),
+              const SizedBox(width: 30),
               Center(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.start,

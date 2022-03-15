@@ -9,7 +9,7 @@ class CardStyle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var myTextStyle = Theme.of(context).textTheme;
+
     Size size = MediaQuery.of(context).size; //Size of our screen
     return Padding(
         padding: const EdgeInsets.all(14.0),
@@ -27,12 +27,12 @@ class CardStyle extends StatelessWidget {
               Column(
                 mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(title.toString(), style: TextStyle(color: Colors.black, fontSize: 26)),
-                  Text(subtitle.toString(), style: TextStyle(color: Colors.grey, fontSize: 16)),
+                  Text(title.toString(), style: const TextStyle(color: Colors.black, fontSize: 26)),
+                  Text(subtitle.toString(), style: const TextStyle(color: Colors.grey, fontSize: 16)),
                 ],
               ),
-              Spacer(),
-              Icon(Icons.arrow_forward_ios, color: Colors.pink)
+              const Spacer(),
+              const Icon(Icons.arrow_forward_ios, color: Colors.pink)
             ],
           ),
         ));
